@@ -26,6 +26,7 @@ section {
     max-width: 1440px;
 }
 .section-title{
+    position: relative;
     font-family: 'Forum', cursive;
     font-style: normal;
     font-weight: 400;
@@ -39,6 +40,7 @@ section {
 
     color: #FFFFFF;
 }
+
 .section-title-gold {
     color: #9D8665;
 }
@@ -54,4 +56,8 @@ section {
     letter-spacing: 2px;
     text-align: left;
     color: #FFFFFF;
+}
+img {
+    padding: 0;
+    margin: 0;
 }

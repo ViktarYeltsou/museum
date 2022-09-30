@@ -1,3 +1,52 @@
+.visiting-section {
+    background-color: #FFFFFF;
+}
+
 .visiting-container {
     height: 1116px;
+}
+.visiting-container h2::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background-color: #710707;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 75px 58px; /*60*/
+    padding-top: 100px;
+}
+.card-wrapper {
+    display: block;
+    width: 440px;
+    height: 425px;
+    border: 1px solid red;
+
+}
+.card-name {
+    position: relative;
+    padding-top: 25px;
+    text-align: left;
+    font-family: 'Forum', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 35px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    color: #000000;
+}
+.card-name::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    width: 68%;
+    height: 3px;
+    background-color: #710707;
 }
