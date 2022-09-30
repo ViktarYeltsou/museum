@@ -18,5 +18,34 @@
     background: linear-gradient(to left, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 1)),
                 no-repeat,
                 url("/assets/png/welcome_img.png");
-
+}
+.wel-txt-wrapper {
+    position: absolute;
+    top: 150px;
+    left: 0;
+    max-width: 600px;
+    max-height: 390px;
+    /*
+    border: 1px solid red;
+    */
+}
+.wel-txt-wrapper h3 {
+    padding-top: 25px;
+}
+.discover-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 75px;
+    width: 360px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: #710707;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    color: #FFFFFF;
 }

@@ -26,5 +26,32 @@ section {
     max-width: 1440px;
 }
 .section-title{
+    font-family: 'Forum', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 90px;
+    /* or 112% */
 
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-align: left;
+
+    color: #FFFFFF;
+}
+.section-title-gold {
+    color: #9D8665;
+}
+.txt-content {
+
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 33px;
+    /* identical to box height */
+
+    letter-spacing: 2px;
+    text-align: left;
+    color: #FFFFFF;
 }
