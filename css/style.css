@@ -21,7 +21,7 @@ section {
 }
 
 .container {
-    border: 1px solid black;
+    border: 1px solid teal;
     margin: 0 auto;
     max-width: 1440px;
 }
@@ -45,14 +45,11 @@ section {
     color: #9D8665;
 }
 .txt-content {
-
     font-family: 'Roboto', serif;
     font-style: normal;
     font-weight: 300;
     font-size: 28px;
     line-height: 33px;
-    /* identical to box height */
-
     letter-spacing: 2px;
     text-align: left;
     color: #FFFFFF;
@@ -60,4 +57,7 @@ section {
 img {
     padding: 0;
     margin: 0;
+}
+.explore-section {
+    background-color: #000;
 }

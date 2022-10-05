@@ -1,3 +1,39 @@
 .explore-container {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
     height: 715px;
+}
+.explore-container h2::after {
+    content: "";
+    position: absolute;
+    bottom: -25px;
+    left: 0;
+    right: 0;
+    height: 3px;
+    width: 660px;
+    background-color: #710707;
+}
+.explore-content {
+    max-width: 660px;
+}
+.explore-content h2 {
+    margin-bottom: 80px;
+}
+.explore-content p {
+    padding-top: 25px;
+}
+.content-txt {
+    text-align: left;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: #FFFFFF;
+}
+.explore-container img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
