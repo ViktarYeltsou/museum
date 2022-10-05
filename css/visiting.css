@@ -24,8 +24,13 @@
     display: block;
     width: 440px;
     height: 425px;
+    /*
     border: 1px solid red;
-
+    */
+}
+.card-wrapper img {
+    width: 440px;
+    height: 285px;
 }
 .card-name {
     position: relative;
@@ -44,9 +49,19 @@
 .card-name::after {
     content: "";
     position: absolute;
-    bottom: -25px;
+    bottom: -10px;
     left: 0;
     width: 68%;
     height: 3px;
     background-color: #710707;
+}
+.vt360 {
+    padding-top: 22px;
+    text-align: left;
+    color: black;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 100;
+    font-size: 22px;
+    line-height: 26px;
 }
