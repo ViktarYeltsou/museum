@@ -1,3 +1,42 @@
 .video-container {
     height: 1246px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.video-title {
+    display: grid;
+    grid-template-areas: "a b";
+    grid-template-columns: 50% 50%;
+}
+.video-title h2 {
+    grid-area: a;
+}
+.video-title p {
+    grid-area: b;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    font-family: 'Roboto', serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 38px;
+    color: #000000;
+}
+.main-video {
+    padding-top: 75px;
+}
+.video-slide-wrapper {
+    padding-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.slider-pagination {
+    padding-top: 40px;
+    width: 200px;
+    height: 12px;
+    display: flex;
+    justify-content: space-between;
 }
